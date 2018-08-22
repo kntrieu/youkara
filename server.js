@@ -25,6 +25,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/', index);
 app.use('/api', tasks);
 
-app.listen(port, function(){
+app.listen(process.env.PORT || 5000, function(){
 	console.log('Server started on port %s', port);
 });

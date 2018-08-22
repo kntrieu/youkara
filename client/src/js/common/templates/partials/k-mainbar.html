@@ -1,0 +1,89 @@
+<div class="k-mainbar navbar-fixed">
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="k-mainbar-container nav-wrapper container">
+            <div class="row">
+                <div class="col s3">
+                    <ul class="left">
+                        <li title="{{ 'MAIN_BAR.MENU_TITLE' | translate}}">
+                            <a data-target="sidenav-hidden" class="sidenav-trigger" href="#">
+                                <i class="icon-menu"></i>
+                            </a>
+                            <a data-target="sidenav-hidden" class="hide-on-med-and-down" href="#">
+                                <i class="icon-menu"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="youkara-logo">
+                        Youkara
+                    </a>
+                </div>
+                <div class="search-container col s6">
+                    <div class="search-input-container col s10">
+                        <input type="text" class="main-search-input" placeholder="{{ 'MAIN_BAR.SEARCH_PLACE_HOLDER' | translate}}" />
+                    </div>
+                    <div class="search-button-container col s2">
+                        <button class="waves-effect waves-light btn" title="{{'SEARCH' | translate}}">
+                            <i class="icon-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <ul class="right hide-on-med-and-down">
+                        <li title="{{ 'MAIN_BAR.MY_PROFILE_TITLE' | translate}}">
+                            <a href="/">
+                                <i class="icon-person"></i>
+                            </a>
+                        </li>
+                        <li title="{{ 'MAIN_BAR.LOGIN_TITLE' | translate}}">
+                            <a href="/">
+                                <i class="icon-lock"></i>
+                            </a>
+                        </li>
+                        <li title="{{ 'MAIN_BAR.LOGOUT_TITLE' | translate}}">
+                            <a href="/">
+                                <i class="icon-do_not_disturb_alt"></i>
+                            </a>
+                        </li>
+                        <li title="{{ 'MAIN_BAR.SETTING_TITLE' | translate}}">
+                            <a href="/">
+                                <i class="icon-settings"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="right hide-on-large-only">
+                        <li title="{{ 'MAIN_BAR.SETTING_TITLE' | translate}}">
+                            <a class="dropdown-trigger" href="#" data-target="optionsMenu">
+                                <i class="icon-more_vert"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <ul id="optionsMenu" class="dropdown-content option-menus hide-on-large-only">
+        <li title="{{ 'MAIN_BAR.MY_PROFILE_TITLE' | translate}}">
+            <a href="/">
+                <i class="icon-person"></i>
+            </a>
+        </li>
+        <li title="{{ 'MAIN_BAR.LOGIN_TITLE' | translate}}">
+            <a href="/">
+                <i class="icon-lock"></i>
+            </a>
+        </li>
+        <li title="{{ 'MAIN_BAR.LOGOUT_TITLE' | translate}}">
+            <a href="/">
+                <i class="icon-do_not_disturb_alt"></i>
+            </a>
+        </li>
+        <li title="{{ 'MAIN_BAR.SETTING_TITLE' | translate}}">
+            <a href="/">
+                <i class="icon-settings"></i>
+            </a>
+        </li>
+    </ul>
+</div>

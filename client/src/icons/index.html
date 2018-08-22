@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ICONS GUIDS</title>
+  <link rel="stylesheet" href="../css/k-ui-lib.css">
+  <link rel="stylesheet" href="iconfont.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>K-UI ICONS</h1>
+    <ul class="collection">
+      <% _.each(glyphs, function(icon){ %>
+        <li class="collection-item avatar">
+          <i class="icon-<%= icon.name %> circle green"></i>
+          <code class="title">\<%= icon.unicode[0].charCodeAt(0).toString(16) %></code>
+          <p>icon-<%= icon.name %></p>
+          <a href="#!" class="secondary-content"></a>
+        </li>
+        <% }) %>
+    </ul>
+  </div>
+  
+
+</body>
+
+</html>

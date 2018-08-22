@@ -1,0 +1,19 @@
+
+<div class="col s12 no-padding k-card-tab">
+    <ul class="tabs tabs-fixed-width light-blue lighten-1">
+        <li class="tab col s3" ng-repeat="item in data">
+            <a href="#{{item.tabId}}" translate="{{item.header}}">{{item.header}}</a>
+        </li>
+    </ul>
+</div>
+<div ng-repeat="item in data" id="{{item.tabId}}" class="col s12 no-padding">
+    <ul class="collection">
+        <li class="collection-item dismissable"ng-repeat="li in item.element">
+            <div>{{li.title}}
+                <a href="{{li.url}}" class="secondary-content">
+                    <i class="{{li.icon_class}}"></i>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>

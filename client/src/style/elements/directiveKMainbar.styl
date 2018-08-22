@@ -1,0 +1,81 @@
+/* This is the css block for k-mainbar directive */
+/*  Author: kntrieu */
+/*  Date create:  August 6, 2018 */
+//html {}
+.knt { 
+    
+    .k-mainbar {
+
+        .youkara-logo {
+            font-family: cursive;
+            font-size: 1.5rem;
+        }
+
+        .option-menus{
+           font-size: 20px !important;
+           li {
+               text-align: center;
+               a {
+                   font-size: 20px !important;
+               }
+           }
+           &:focus {
+               outline: none;
+           }
+        }
+
+        .k-mainbar-container {
+            width: 100%;
+            font-size: 13px !important;
+            max-width: inherit;
+
+            .row {
+                height: 100%;
+            }
+
+            .search-container {
+                height: 100%;
+                //Override default input styles
+                .main-search-input {
+                    border: solid 1px #0290CD;
+                    border-right: none;
+                    padding-left: 10px;
+                    vertical-align: middle;
+                    position: relative;
+                    color: white;
+                    margin: 0px;
+                    height: 34px;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                
+                }
+
+                .main-search-input::placeholder {
+                    color: white;
+                }
+
+                .search-input-container {
+                    height: 100%;
+                }
+
+                .search-button-container {
+                    padding-left: 0px;
+
+                    button {
+                        background-color: #0290CD;
+                        border: solid 1px #0290CD;
+                        border-left: none;
+                        box-shadow: none;
+                        border-radius: 0px;
+
+                        .icon-search {
+                            height: 56px;
+                            line-height: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

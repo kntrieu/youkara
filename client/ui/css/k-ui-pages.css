@@ -1,0 +1,17 @@
+/* This is the css block for common css */
+/*  Author: kntrieu */
+/*  Date create:  August 14, 2018 */
+@media only screen and (min-width: 993px) {
+  .knt .k-container {
+    margin-left: 310px;
+    margin-top: 10px;
+  }
+}
+
+/* This is the css block for page sample */
+/*  Author: kntrieu */
+/*  Date create:  March 7, 2017 */
+.knt .no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}

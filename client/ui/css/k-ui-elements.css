@@ -1,0 +1,129 @@
+/* This is the css block for k-card-tab directive */
+/*  Author: kntrieu */
+/*  Date create:  March 13, 2017 */
+.knt .k-card-tab {
+  margin-top: 0.5rem;
+/* Tabs */
+/* End Tabs */
+}
+.knt .k-card-tab .tabs .indicator {
+  background-color: #f56629;
+}
+.knt .k-card-tab .tabs li {
+  text-transform: none;
+}
+.knt .k-card-tab .tabs li a {
+  color: #fff;
+}
+
+/* This is the css block for k-carousel directive */
+/*  Author: kntrieu */
+/*  Date create:  March 18, 2017 */
+.knt .k-carousel {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* This is the css block for collapsible */
+/*  Author: kntrieu */
+/*  Date create:  March 12, 2017 */
+.knt .k-collapse .collapsible-header {
+  background-color: #29b6f6;
+  color: #fff;
+}
+.knt .k-collapse .collapsible-body {
+  padding: 0.5rem;
+}
+
+/* This is the css block for collapsible */
+/*  Author: kntrieu */
+/*  Date create:  March 18, 2017 */
+.knt .k-collection .k-collection__title {
+  font-weight: bold;
+}
+.knt .k-collection .k-collection__date {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* This is the css block for k-mainbar directive */
+/*  Author: kntrieu */
+/*  Date create:  August 6, 2018 */
+.knt .k-mainbar .youkara-logo {
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+.knt .k-mainbar .option-menus {
+  font-size: 20px !important;
+}
+.knt .k-mainbar .option-menus li {
+  text-align: center;
+}
+.knt .k-mainbar .option-menus li a {
+  font-size: 20px !important;
+}
+.knt .k-mainbar .option-menus:focus {
+  outline: none;
+}
+.knt .k-mainbar .k-mainbar-container {
+  width: 100%;
+  font-size: 13px !important;
+  max-width: inherit;
+}
+.knt .k-mainbar .k-mainbar-container .row {
+  height: 100%;
+}
+.knt .k-mainbar .k-mainbar-container .search-container {
+  height: 100%;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .main-search-input {
+  border: solid 1px #0290cd;
+  border-right: none;
+  padding-left: 10px;
+  vertical-align: middle;
+  position: relative;
+  color: #fff;
+  margin: 0px;
+  height: 34px;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .main-search-input:focus {
+  box-shadow: none;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .main-search-input::placeholder {
+  color: #fff;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .search-input-container {
+  height: 100%;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .search-button-container {
+  padding-left: 0px;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .search-button-container button {
+  background-color: #0290cd;
+  border: solid 1px #0290cd;
+  border-left: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.knt .k-mainbar .k-mainbar-container .search-container .search-button-container button .icon-search {
+  height: 56px;
+  line-height: inherit;
+}
+
+.knt .k-sidebar {
+  top: inherit;
+  box-shadow: none;
+}
+.knt .k-sidebar a {
+  color: #fff;
+}
+.knt .k-sidebar a i {
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* This is the css block for slide show */
+/*  Author: kntrieu */
+/*  Date create:  March 7, 2017 */

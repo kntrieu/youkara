@@ -1,0 +1,22 @@
+<!-- Basic collecion template -->
+<ul class="k-collection collection {{id}}" ng-if="type === COLLECTION_TYPE.BASIC">
+    <li class="collection-item" ng-repeat="item in data">
+        <div>{{item.title}}
+            <a href="{{item.url}}" class="secondary-content">
+                <i class="{{item.icon_class}}"></i>
+            </a>
+        </div>
+    </li>
+</ul>
+
+<ul class="k-collection collection {{id}}" ng-if="type === COLLECTION_TYPE.AVATAR_CONTENT">
+    <li class="collection-item avatar" ng-repeat="item in data">
+        <img ng-src="{{item.thumb ? item.thumb : CONSTANTS.IMAGE.AVATAR_DEFAULT}}" class="circle">
+        <span class="title k-collection__title">{{item.title}}</span>
+        <p class="k-collection__date">{{item.date_created | moment: 'format': 'DD MM, YYYY'}}</p>
+        <p>{{item.short_content}}</p>
+        <a href="{{item.url}}" class="secondary-content">
+            <i class="{{item.icon_class}}"></i>
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,17 @@
+
+<div class="section" style="padding-top: 0px;">
+    <div class="row">
+      <div class="slider">
+        <ul class="slides">
+          <li ng-repeat="item in slideItems">
+            <img ng-src="{{item.src}}">
+            <!-- random image -->
+            <div class="caption {{item.align}}">
+              <h3>{{item.title}}</h3>
+              <h5 class="light grey-text text-lighten-3">{{item.caption}}</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>

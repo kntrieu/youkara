@@ -1,0 +1,19 @@
+<div class="card" ng-if="type === CONSTANTS.DRT_CARDS.REVEAL">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="{{card.thumb}}">
+    </div>
+    <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">{{card.title}}
+            <i class="icon-more_vert right"></i>
+        </span>
+        <p>
+            <a class="waves-effect waves-light btn-small" href="{{card.url.url}}">{{card.url.title}}</a>
+        </p>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">{{card.title}}
+            <i class="icon-close right"></i>
+        </span>
+        <p>{{card.description}}</p>
+    </div>
+</div>

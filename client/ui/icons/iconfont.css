@@ -3,11 +3,11 @@ iconfont Webfont
 */
 @font-face {
  font-family: 'iconfont';
- src: url('iconfont.eot?1534931818158');
- src: url('iconfont.eot?#iefix-1534931818158') format('embedded-opentype'),
-  url('iconfont.woff2?1534931818158') format('woff2'),
-  url('iconfont.woff?1534931818158') format('woff'),
-  url('iconfont.ttf?1534931818158') format('truetype');
+ src: url('iconfont.eot?1534991189536');
+ src: url('iconfont.eot?#iefix-1534991189536') format('embedded-opentype'),
+  url('iconfont.woff2?1534991189536') format('woff2'),
+  url('iconfont.woff?1534991189536') format('woff'),
+  url('iconfont.ttf?1534991189536') format('truetype');
  font-weight: normal;
  font-style: normal;
 }

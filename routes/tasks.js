@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router(); 
 var mongojs = require('mongojs');
-
-var db = mongojs('mongodb://kntrieu:123A123@ds145911.mlab.com:45911/mytasklist_trieu', ['tasks']);
+var database = require('../config/database');
+var db = mongojs(database.CONECTION_STRING, ['tasks']);
 
 //Get all tasks
 router.get('/tasks', function(req,res,next){

@@ -1,3 +1,12 @@
+
+angular.module('knt')
+    /**
+     * This controller was created for handling some function in master page
+     */
+    .controller('baseCtrl', ['$scope', '$translate', 'COLLECTION_TYPE', 'CONSTANTS', function ($scope, $translate, COLLECTION_TYPE, CONSTANTS) {
+        /* --------- Region for setting up YOUTUBE APIS --------- */
+        /* --------- Region for setting up YOUTUBE APIS --------- */
+    }]);
 /**
  * Constants
  * Created by kntrieu
@@ -29,15 +38,6 @@ angular.module('knt')
         API_URL: "https://www.googleapis.com/auth/youtube"
     }
 })
-
-angular.module('knt')
-    /**
-     * This controller was created for handling some function in master page
-     */
-    .controller('baseCtrl', ['$scope', '$translate', 'COLLECTION_TYPE', 'CONSTANTS', function ($scope, $translate, COLLECTION_TYPE, CONSTANTS) {
-        /* --------- Region for setting up YOUTUBE APIS --------- */
-        /* --------- Region for setting up YOUTUBE APIS --------- */
-    }]);
 
 /**
  * Directive side bar
@@ -584,13 +584,6 @@ angular.module('knt')
         $translateProvider.useSanitizeValueStrategy('escape');
     });
 
-function initYoutubeAPI() {
-    gapi.client.setApiKey("AIzaSyBmYfgTYJ1e2IJD-ZQTWSDcb1sKUwIs3Mk");
-    gapi.client.load("youtube", "v3", function() {
-        console.log("Youtube API is ready");
-    });
-}
-
 /**
  * Routes
  * Created by kntrieu
@@ -616,3 +609,10 @@ angular.module('knt')
     // use the HTML5 History API
     //$locationProvider.html5Mode(true);
 });
+
+function initYoutubeAPI() {
+    gapi.client.setApiKey("AIzaSyBmYfgTYJ1e2IJD-ZQTWSDcb1sKUwIs3Mk");
+    gapi.client.load("youtube", "v3", function() {
+        console.log("Youtube API is ready");
+    });
+}

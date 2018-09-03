@@ -8,6 +8,8 @@ angular.module('k-ui.home', []);
 angular.module('k-ui.television', []);
 //module of page karaoke
 angular.module('k-ui.karaoke', []);
+//module of page user
+angular.module('k-ui.user', []);
 
 
 
@@ -19,6 +21,7 @@ var knt = angular.module('knt', [
     'k-ui.common',
     'k-ui.home',
     'k-ui.television',
-    'k-ui.karaoke'
+    'k-ui.karaoke',
+    'k-ui.user'
 ]);
 

@@ -65,6 +65,16 @@ angular.module('knt')
                     LINK_TITLE: 'Let\'s try it',
                     DESCRIPTION: 'You can create a remote control and the playlist for singing'
                 }
+            },
+
+            REGISTER_FORM: {
+                FIRST_NAME: "First name",
+                LAST_NAME: "Last name",
+                PASSWORD: "Password",
+                USERNAME: "Username",
+                CONFIRM_PASSWORD: "Enter password again",
+                SUBMIT: "Submit",
+                RESET: "Rest form",
             }
         });
 
@@ -123,6 +133,16 @@ angular.module('knt')
                     LINK_TITLE: 'Hát ngay',
                     DESCRIPTION: 'Hãy tận hưởng những giây phút bên bạn bè và người thân của mình với chức năng hát karaoke này. Bạn có thể tạo điều khiển từ xa, tạo playlist để biết ai là người hát tiếp theo.'
                 }
+            },
+
+            REGISTER_FORM: {
+                FIRST_NAME: "Họ",
+                LAST_NAME: "Tên",
+                PASSWORD: "Mật khẩu",
+                USERNAME: "Tên đăng nhập",
+                CONFIRM_PASSWORD: "Nhập lại mật khẩu",
+                SUBMIT: "Đăng kí",
+                RESET: "Đặt lại",
             }
         });
 
@@ -133,6 +153,6 @@ angular.module('knt')
             }
         });
 
-        $translateProvider.preferredLanguage('vi');
+        $translateProvider.preferredLanguage('en');
         $translateProvider.useSanitizeValueStrategy('escape');
     });

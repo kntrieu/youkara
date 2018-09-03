@@ -10,13 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "console-stamp": "^0.2.6",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
     "google-auth-library": "^1.6.1",
     "googleapis": "^33.0.0",
+    "jsonwebtoken": "^8.3.0",
     "mongojs": "^2.6.0",
+    "mongoose": "^5.2.12",
     "youtube-api-v3-search": "^1.0.2"
   }
 }

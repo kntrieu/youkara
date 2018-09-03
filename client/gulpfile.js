@@ -31,7 +31,13 @@ var paths = {
     templateDist: 'ui/views/',
     scriptCommon: 'src/js/common/*/*js',
     scriptApp: 'src/js/app.js',
-    scriptPages: ['src/js/home/*js', 'src/js/television/*js', 'src/js/karaoke/*js'],
+
+    scriptPages: ['src/js/home/*js', 
+    'src/js/television/*js', 
+    'src/js/karaoke/*js',
+    'src/js/user/*js'
+],
+
     fontSource: 'src/fonts/*/*',
     fontDist: 'ui/fonts/',
     styleSource: 'src/style/',

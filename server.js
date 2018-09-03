@@ -6,6 +6,7 @@ require('console-stamp')(console, '[HH:MM:ss.l]');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 var gapi = require('./routes/gapi');
+var user = require('./api/users/users.controller');
 
 var port = 3000;
 
@@ -30,6 +31,8 @@ app.use('/', index);
 app.use('/api/v1', tasks);
 //Google API----------
 app.use('/api/v1', gapi);
+// User apis
+app.use('/api/v1', user);
 
 app.listen(process.env.PORT || 5000, function(){
 	console.log('Server started on port %s', port);

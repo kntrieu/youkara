@@ -17,6 +17,12 @@ angular.module('knt')
     .when("/karaoke", {
         templateUrl: 'ui/views/karaoke/templates/index.html',
     })
+    .when("/user", {
+        templateUrl: 'ui/views/user/templates/index.html',
+    })
+    .when("/user/register", {
+        templateUrl: 'ui/views/user/templates/user-register.html',
+    })
     .otherwise({
         templateUrl: 'ui/views/home/templates/index.html',
     });
